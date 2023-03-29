@@ -1,0 +1,15 @@
+export enum CategoryEnum {
+  'Imóveis' = 1,
+  'Transportes' = 2,
+  'Eletrônicos e celulares' = 3,
+  'Hobbies e Lazer' = 4,
+  'Animais de estimação' = 5,
+  'Moda e beleza' = 6,
+  'Serviços' = 7,
+  'Sua casa' = 8,
+  'Vendas' = 9,
+  'Aluguéis' = 10,
+  'Salário' = 11,
+  'Investimentos' = 12,
+  'Outros' = 13,
+}
