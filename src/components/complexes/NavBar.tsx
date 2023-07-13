@@ -5,7 +5,6 @@ import { Button, Text } from '../basics';
 import { MultiSquares } from '../complexes';
 
 import {
-  CalendarBlank,
   CurrencyCircleDollar,
   GearSix,
   ProjectorScreenChart,
