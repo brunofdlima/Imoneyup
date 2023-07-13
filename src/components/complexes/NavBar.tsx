@@ -52,12 +52,6 @@ export const NavBar = () => {
             Transações
           </Button>
         </Link>
-        <Link to='/metas' className='flex'>
-          <Button variant='navbar' selected={pathname === '/metas'}>
-            <CalendarBlank />
-            Metas
-          </Button>
-        </Link>
         <Link to='/configuracoes' className='flex'>
           <Button variant='navbar' selected={pathname === '/configuracoes'}>
             <GearSix />
