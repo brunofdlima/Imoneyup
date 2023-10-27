@@ -10,7 +10,7 @@ import {
   ResponsiveContainer,
 } from 'recharts';
 
-import { Select, Text } from '~/components/basics';
+import { Text } from '~/components/basics';
 
 import { useAuth } from '~/context/AuthContext';
 
