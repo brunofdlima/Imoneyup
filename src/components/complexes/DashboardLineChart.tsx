@@ -68,7 +68,7 @@ export const DashboardLineChart = () => {
     <div className='h-full w-full flex flex-col py-2 px-5 bg-white rounded shadow'>
       <div className='flex justify-between pb-4'>
         <div>
-          <Text className='text-lg ml-12'>Balanço geral</Text>
+          <Text className='text-lg ml-16'>Balanço geral</Text>
         </div>
         <div className='flex gap-9 text-lg'>
           <div className='flex items-center gap-2'>
