@@ -68,7 +68,7 @@ export const Dashboard = () => {
           <Description className='col-span-1'>Opções</Description>
         </div>
         <div className='h-[calc(100%-5rem)] overflow-y-auto bg-[#f5f5f5]'>
-          <div className='flex-1 flex flex-col gap-2 p-1 border-t border-b'>
+          <div className='flex-1 flex flex-col gap-2 p-1 border-t border-b border-none'>
             {reversedArray.map((t) => (
               <TransactionLine key={t.id} transaction={t} />
             ))}
