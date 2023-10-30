@@ -123,6 +123,7 @@ export const TransactionModal = ({ transaction, closeTransactionModal }: Transac
             defaultValue={transaction?.description}
             disabled={formIsEditable ? false : true}
             onChange={({ target: { value } }) => (form.current.description = value)}
+            className='placeholder-opacity-50'
           />
         </div>
         <div>
@@ -191,6 +192,7 @@ export const TransactionModal = ({ transaction, closeTransactionModal }: Transac
             defaultValue={transaction?.value}
             disabled={formIsEditable ? false : true}
             onChange={({ target: { value } }) => (form.current.value = Number(value))}
+            className='placeholder-opacity-50'
           />
         </div>
         <div>
